@@ -15,16 +15,16 @@ var gameOver, restart;
 
 
 function preload(){
-  jumpSound = loadSound("assets/sounds/jump.wav")
-  collidedSound = loadSound("assets/sounds/collided.wav")
+  jumpSound = loadSound("jump.wav")
+  collidedSound = loadSound("collided.wav")
   
-  backgroundImg = loadImage("assets/backgroundImg.png")
-  sunAnimation = loadImage("assets/sun.png");
+  backgroundImg = loadImage("backgroundImg.png")
+  sunAnimation = loadImage("sun.png");
   
-  trex_running = loadAnimation("assets/trex_2.png","assets/trex_1.png","assets/trex_3.png");
-  trex_collided = loadAnimation("assets/trex_collided.png");
+  trex_running = loadAnimation("trex_2.png","trex_1.png","trex_3.png");
+  trex_collided = loadAnimation("trex_collided.png");
   
-  groundImage = loadImage("assets/ground.png");
+  groundImage = loadImage("ground.png");
   
   cloudImage = loadImage("assets/cloud.png");
   
